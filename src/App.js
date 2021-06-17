@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Container from "./components/container/Container";
 
 // import Navbar from "./components/navbar/Navbar";
 
@@ -7,11 +9,10 @@ import { Route, Switch } from "react-router-dom";
 function App(props) {
   return (
     <>
-
-    <h1>hello world</h1>
-        {/* <Switch> /}
-          // <Navbar />
-        {/ </Switch> */}
+        {/* {<Switch> } */}
+          <Navbar />
+          <Container/>
+        {/* { </Switch> } */}
     </>
   );
 }
